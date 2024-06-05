@@ -512,3 +512,36 @@ input:checked + label .description {
 .card_position5 {
   margin-top: 50px;
 }
+
+
+.footer_container{
+  width: 100%;
+  display: flex;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #141414;
+  color: #fff;
+  padding: 20px;
+}
+.contact-info {
+  text-align: left;
+}
+.contact-info p {
+  margin: 5px 0; /* 연락처와 이메일 사이의 간격 조정 */
+  font-weight: 400;
+}
+.copyright {
+  text-align: right;
+}
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
